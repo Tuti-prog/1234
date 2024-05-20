@@ -1,0 +1,115 @@
+header {
+    background-color: rgb(141, 140, 134);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+header h1 {
+    margin-right: 550px;
+    margin-top: 40px;
+    font-size: 25px; 
+}
+.imagen {
+    float: left;
+    width: 120px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+header ul li {
+    width: 20px;
+    margin: 35px 0px 10px 10px;
+    margin-right: 200px;
+    color: #ffffff;
+}
+header a {
+    color: #ffffff;
+}
+
+
+h1 {
+    width: 30px;
+    color: #ffffff;
+
+}
+
+p {
+    size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    text-size-adjust: auto;
+
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+.main{ 
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    margin: 0 0 20px; 
+    overflow: hidden; 
+    padding: 20px; 
+}
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+h2 { 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(141, 140, 134);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-size: 150px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+
+.lista_centrada { 
+    text-align: center;
+}
+
+.lista_centrada ul,
+.lista_centrada ol {
+    text-align: left;
+    display: inline-block;
+}
+
+body {
+    background-image: url('https://mejorconsalud.as.com/wp-content/uploads/2018/06/suplementos-deportivos.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
